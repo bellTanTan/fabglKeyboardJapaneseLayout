@@ -31,44 +31,44 @@ Add Japanese keyboard layout to fabgl library
     125 static int count()               { return LAYOUTSCOUNT; }  
     126  
     127 static char const * * names() {  
-    128 static char const * NAMES[LAYOUTSCOUNT] =  {  
-    129     GermanLayout.desc,  
-    130     ItalianLayout.desc,  
-    131     UKLayout.desc,  
-    132     USLayout.desc,  
-    133     SpanishLayout.desc,  
-    134     FrenchLayout.desc,  
-    135     BelgianLayout.desc,  
-    136     JapaneseLayout.desc,  
-    137 };  
-    138 return NAMES;  
+    128   static char const * NAMES[LAYOUTSCOUNT] =  {  
+    129       GermanLayout.desc,  
+    130       ItalianLayout.desc,  
+    131       UKLayout.desc,  
+    132       USLayout.desc,  
+    133       SpanishLayout.desc,  
+    134       FrenchLayout.desc,  
+    135       BelgianLayout.desc,  
+    136       JapaneseLayout.desc,  
+    137   };  
+    138   return NAMES;  
     139 }  
     140  
     141 static char const * * shortNames() {  
-    142 static char const * SNAMES[LAYOUTSCOUNT] = {  
-    143     GermanLayout.name,  
-    144     ItalianLayout.name,  
-    145     UKLayout.name,  
-    146     USLayout.name,  
-    147     SpanishLayout.name,  
-    148     FrenchLayout.name,  
-    149     BelgianLayout.name,  
-    150     JapaneseLayout.name,  
-    151 };  
-    152 return SNAMES;  
+    142   static char const * SNAMES[LAYOUTSCOUNT] = {  
+    143       GermanLayout.name,  
+    144       ItalianLayout.name,  
+    145       UKLayout.name,  
+    146       USLayout.name,  
+    147       SpanishLayout.name,  
+    148       FrenchLayout.name,  
+    149       BelgianLayout.name,  
+    150       JapaneseLayout.name,  
+    151   };  
+    152   return SNAMES;  
     153 }  
     154  
     155 static const KeyboardLayout * * layouts() {  
-    156     static KeyboardLayout const * LAYOUTS[LAYOUTSCOUNT] = {  
-    157     &GermanLayout,  
-    158     &ItalianLayout,  
-    159     &UKLayout,  
-    160     &USLayout,  
-    161     &SpanishLayout,  
-    162     &FrenchLayout,  
-    163     &BelgianLayout,  
-    164     &JapaneseLayout,  
-    165 };  
-    166 return LAYOUTS;  
+    156   static KeyboardLayout const * LAYOUTS[LAYOUTSCOUNT] = {  
+    157       &GermanLayout,  
+    158       &ItalianLayout,  
+    159       &UKLayout,  
+    160       &USLayout,  
+    161       &SpanishLayout,  
+    162       &FrenchLayout,  
+    163       &BelgianLayout,  
+    164       &JapaneseLayout,  
+    165   };  
+    166   return LAYOUTS;  
     167 }  
    
