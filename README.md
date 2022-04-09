@@ -14,7 +14,6 @@ Add Japanese keyboard layout to fabgl library
 	&lt;   VK_HENKAN,          /**&lt; 変換 */
 	&lt;   VK_KATAKANA_HIRAGANA_ROMAJI,
 	&lt;                       /**&lt; カタカナ/ひらがな/ローマ字 */
-	&lt; 
 	</pre>	
 
 3. Arduino/libraries/FabGL/src/devdrivers/kbdlayouts.h
