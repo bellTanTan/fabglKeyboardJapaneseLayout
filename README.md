@@ -3,7 +3,8 @@ Add Japanese keyboard layout to fabgl library
 
 3つのファイルを改定します。
 
-#1. Arduino/libraries/FabGL/src/fabutils.h
+#1
+Arduino/libraries/FabGL/src/fabutils.h
 
     1325  VK_HANKAKU_ZENKAKU_KANJI,  
     1326                      /**< 半角/全角/漢字 */  
